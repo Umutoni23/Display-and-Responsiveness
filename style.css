@@ -1,0 +1,80 @@
+
+body {
+    margin: 20px;
+    padding: 40px;
+    font-family:'Times New Roman', Times, serif;
+    background-color:goldenrod;
+    color:gray;
+}
+
+
+#page {
+    background-color: #0b5ed7;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+#page a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#page a:hover {
+    text-decoration: underline;
+}
+
+
+.content {
+    background-color: hotpink;
+    width: 80%;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+/* Class 2 */
+.highlight {
+    color: #0b5ed7;
+    font-weight: bold;
+}
+
+/* Class 3 */
+.center-text {
+    text-align: center;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid #ddd;
+    border-radius: 10px;
+}
+
+/* Align logo in menu */
+#page img {
+    margin-top: auto;
+}
+
+
+footer {
+    background-color:goldenrod;
+    color: blue;
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+}
+
+footer a {
+    color: white;
+    font-size: 22px;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    color: #0b5ed7;
+}
